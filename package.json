@@ -1,0 +1,19 @@
+{
+  "homepage": "https://harit-p.github.io/RazorPay-Clone/",
+  "scripts": {
+    "predeploy": "npm run start",
+   "deploy": "gh-pages -d start",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.36",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "feather": "^0.0.5",
+    "gh-pages": "^6.1.1",
+    "tailwind": "^4.0.0"
+  }
+}
